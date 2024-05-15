@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:table_calendar/table_calendar.dart';
 import 'package:table_calendar/table_calendar.dart' as tc
     show StartingDayOfWeek;
+import 'package:table_calendar/table_calendar.dart';
 
 import '../core/booking_controller.dart';
 import '../model/booking_service.dart';

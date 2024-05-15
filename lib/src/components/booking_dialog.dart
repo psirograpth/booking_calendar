@@ -13,7 +13,7 @@ class BookingDialog extends StatelessWidget {
           child: CommonCard(child: Icon(Icons.book_online, size: 256)),
         ),
         SizedBox(height: 16),
-        Text("Here comes your fancy loading"),
+        Text("Yükleniyor..."),
       ],
     );
   }

@@ -1,3 +1,7 @@
+## 1.1.11
+
+- Updated dependencies.
+
 ## 1.1.10
 
 - Updated packages, WIP Firebase example
