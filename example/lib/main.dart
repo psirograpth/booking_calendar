@@ -100,7 +100,7 @@ class _BookingCalendarDemoAppState extends State<BookingCalendarDemoApp> {
               hideBreakTime: false,
               loadingWidget: const Text('Fetching data...'),
               uploadingWidget: const CircularProgressIndicator(),
-              locale: 'hu_HU',
+              locale: 'tr_TR',
               startingDayOfWeek: StartingDayOfWeek.tuesday,
               wholeDayIsBookedWidget:
                   const Text('Sorry, for this day everything is booked'),
