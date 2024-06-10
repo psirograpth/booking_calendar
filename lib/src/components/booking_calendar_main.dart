@@ -203,8 +203,14 @@ class _BookingCalendarMainState extends State<BookingCalendarMain> {
                           DateTime.now().add(const Duration(days: 1000)),
                       focusedDay: _focusedDay,
                       calendarFormat: _calendarFormat,
-                      calendarStyle:
-                          const CalendarStyle(isTodayHighlighted: true),
+                      availableCalendarFormats: const {
+                        CalendarFormat.month: 'Ay',
+                        CalendarFormat.twoWeeks: '2 Hafta',
+                        CalendarFormat.week: 'Hafta',
+                      },
+                      calendarStyle: const CalendarStyle(
+                        isTodayHighlighted: true,
+                      ),
                       selectedDayPredicate: (day) {
                         return isSameDay(_selectedDay, day);
                       },
