@@ -1,3 +1,8 @@
+
+## 1.1.12
+
+- Updated dependencies
+
 ## 1.1.11
 
 - Updated dependencies.
